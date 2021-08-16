@@ -1,0 +1,67 @@
+body{
+	background-image:  url("https://images.unsplash.com/photo-1598948208894-ca6c00e2f01b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    background-size: cover;
+    align-items: center;
+    font-family: "Segoe UI"
+    }
+.maincard{
+	background-color: rgba(0%,0%,0%,0.7);
+	margin:20px;
+	height:95vh;
+	width: 95vw;
+	border-radius: 10px;
+}
+.title{
+	color:white;
+	text-align: center;
+	margin-top: 70px;
+}
+
+.btnEnter{
+	color: white;
+	background-color: #2bcbba;
+	border-radius: 5px;
+	margin-top: 30px;
+	padding: 10px;
+	color:white;
+	display: block;
+	width: 100px;
+	display: block;
+	border:none;
+	margin:auto;
+	 transition: all .2s ease-in-out; 
+}
+.profilePic{
+	width:125px;
+	border-radius:150px;
+	display:block;
+	margin: auto;
+
+}
+.btnregister{
+	background-color: rgba(0%, 0%, 0%, 0.3);
+	color:white;
+	border:none;
+	border-radius: 10px;
+	margin:auto;
+	margin-top: 30px;
+	margin-left: 30px;
+	padding:15px;
+	transition:all .2s case-in-out;
+
+}
+input{
+	background-color: rgba(0%,0%,0%,0.3);
+	text-align: center;
+	border-radius: 5px;
+	margin: auto;
+	padding: 10px;
+	color: white;
+	margin-top: 10px;
+	display:block;
+	border:none;
+	width:250px;
+}
+button:hover{
+	transform: scale(1.1);
+}
